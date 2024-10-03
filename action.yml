@@ -44,7 +44,7 @@ outputs:
   deployment_production_environment:
     description: 'The deployment production_environment'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'gift'  
